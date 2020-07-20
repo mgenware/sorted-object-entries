@@ -1,0 +1,44 @@
+{
+  "name": "sorted-object-entries",
+  "version": "0.0.0",
+  "description": "Sorted `Object.entries`",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "author": "Mgen (https://www.mgenware.com)",
+  "homepage": "https://github.com/mgenware/sorted-object-entries",
+  "bugs": "https://github.com/mgenware/sorted-object-entries/issues",
+  "keywords": [
+    "object"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mgenware/sorted-object-entries.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "r": "daizong",
+    "prepublishOnly": "yarn r build"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "files": [
+    "/dist/**/*.js",
+    "/dist/**/*.ts",
+    "/dist/**/*.css",
+    "/dist/**/*.map"
+  ],
+  "devDependencies": {
+    "@types/mocha": "^8.0.0",
+    "@types/node": "^14.0.23",
+    "@typescript-eslint/eslint-plugin": "^3.6.1",
+    "@typescript-eslint/parser": "^3.6.1",
+    "daizong": "^0.7.0",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-typescript-lite": "^9.0.0",
+    "eslint-plugin-import": "^2.22.0",
+    "mocha": "^8.0.1",
+    "source-map-support": "^0.5.19",
+    "typescript": "^3.9.7"
+  }
+}
