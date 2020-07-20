@@ -4,7 +4,7 @@
 [![npm version](https://img.shields.io/npm/v/sorted-object-entries.svg?style=flat-square)](https://npmjs.com/package/sorted-object-entries)
 [![Node.js Version](http://img.shields.io/node/v/sorted-object-entries.svg?style=flat-square)](https://nodejs.org/en/)
 
-Sorted `Object.entries`.
+Sorted `Object.entries` in ascending or descending order.
 
 ## Installation
 

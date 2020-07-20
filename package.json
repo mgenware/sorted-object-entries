@@ -1,7 +1,7 @@
 {
   "name": "sorted-object-entries",
   "version": "0.0.0",
-  "description": "Sorted `Object.entries`",
+  "description": "Sorted `Object.entries` in ascending or descending order.",
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
   "author": "Mgen (https://www.mgenware.com)",
