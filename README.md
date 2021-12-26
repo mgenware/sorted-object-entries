@@ -9,7 +9,7 @@ Sorted `Object.entries` in ascending or descending order.
 ## Installation
 
 ```sh
-yarn add sorted-object-entries
+npm i sorted-object-entries
 ```
 
 ## Usage
