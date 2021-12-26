@@ -1,5 +1,5 @@
 import * as assert from 'assert';
-import sortedObjEntries from '..';
+import sortedObjEntries from '../dist/main.js';
 
 const obj = {
   liu: 1,
